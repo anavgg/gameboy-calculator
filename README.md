@@ -1,4 +1,4 @@
-## <h2 align="center"> :space_invader: A to-do list with a retro aesthetic :space_invader:</h2>
+## <h2 align="center"> :space_invader: A calculator too rounded to be a Gameboy. :space_invader:</h2>
 
 
 ## Screenshots
