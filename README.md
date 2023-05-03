@@ -2,5 +2,5 @@
 
 
 ## Screenshots
-<p align="center"><img src="public\img\img-1.png" width="1000" alt="Project screenshots"></p>
-<p align="center"><img src="public\img\img-2.png" width="1000" alt="Project screenshots"></p>
+<p align="center"><img src="\img\img-1.png" width="1000" alt="Project screenshots"></p>
+<p align="center"><img src="\img\img-2.png" width="1000" alt="Project screenshots"></p>
