@@ -1,17 +1,17 @@
-class Calculadora {
-    sumar(num1, num2) {
+class Calculator {
+    add(num1, num2) {
         return num1 + num2;
     }
 
-    restar(num1, num2) {
+    subtract(num1, num2) {
         return num1 - num2;
     }
 
-    dividir(num1, num2) {
+    divide(num1, num2) {
         return num1 / num2;
     }
 
-    multiplicar(num1, num2) {
+    multiply(num1, num2) {
         return num1 * num2;
     }
 } 

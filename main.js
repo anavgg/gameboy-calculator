@@ -1,30 +1,30 @@
-const displayValorAnterior = document.getElementById('valor-anterior');
-const displayValorActual = document.getElementById('valor-actual');
-const botonesNumeros = document.querySelectorAll('.numero');
-const botonesOperadores = document.querySelectorAll('.operador');
+const displayPreValue = document.getElementById('pre-value');
+const displayCurrentValue = document.getElementById('current-value');
+const numButtons = document.querySelectorAll('.num');
+const operatorButtons = document.querySelectorAll('.operator');
 
-const display = new Display(displayValorAnterior, displayValorActual);
+const display = new Display(displayPreValue, displayCurrentValue);
 
-botonesNumeros.forEach(boton => {
-    boton.addEventListener('click', () => display.agregarNumero(boton.innerHTML));
+numButtons.forEach(boton => {
+    boton.addEventListener('click', () => display.agregarnum(boton.innerHTML));
 });
 
-botonesOperadores.forEach(boton => {
+operatorButtons.forEach(boton => {
     boton.addEventListener('click', () => display.computar(boton.value))
 });
 
-let primerNumero = false;
-const displayActual = document.getElementById('valor-actual');
+let primernum = false;
+const actualDisplay = document.getElementById('valor-actual');
 const placeholder = document.getElementById('placeholder');
 
-document.querySelectorAll('.numero').forEach(function(boton) {
+document.querySelectorAll('.num').forEach(function(boton) {
   boton.addEventListener('click', function() {
-    if (!primerNumero) {
-      displayActual.textContent = this.value;
-      primerNumero = true;
+    if (!primernum) {
+      actualDisplay.textContent = this.value;
+      primernum = true;
       placeholder.style.display = 'none';
     } else {
-      displayActual.textContent += this.value;
+      actualDisplay.textContent += this.value;
     }
   });
 });

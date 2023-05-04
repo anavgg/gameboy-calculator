@@ -12,35 +12,35 @@
   <body>
 
   <div class="container">
-    <div class="calculadora">
+    <div class="calculator">
         <div class="display">
           <span id="placeholder">Start</span>
-            <div id="valor-anterior"></div>
-            <div id="valor-actual"></div>
+            <div id="pre-value"></div>
+            <div id="current-value"></div>
         </div>
-        <button class="col-2 operador" id="add" value="add">+</button>
+        <button class="col-2 operator" id="add" value="add">+</button>
         <button id="undone" onclick="display.borrar()">&larr;</button>
         <button onclick="display.borrarTodo()" id="restart">C</button>
-        <button class="numero">7</button>
-        <button class="numero">8</button>
-        <button class="numero">9</button>
-        <button class="operador" value="multiplicar">X</button>
-        <button class="numero">4</button>
-        <button class="numero">5</button>
-        <button class="numero">6</button>
-        <button class="operador" value="restar">-</button>
-        <button class="numero">1</button>
-        <button class="numero">2</button>
-        <button class="numero">3</button>
-        <button class="operador" value="dividir">%</button>
-        <button class="col-2 numero" id="zero">0</button>
-        <button class="numero">.</button>
-        <button class="operador" value="igual" id="igual">=</button>
+        <button class="num">7</button>
+        <button class="num">8</button>
+        <button class="num">9</button>
+        <button class="operator" value="multiply">X</button>
+        <button class="num">4</button>
+        <button class="num">5</button>
+        <button class="num">6</button>
+        <button class="operator" value="subtract">-</button>
+        <button class="num">1</button>
+        <button class="num">2</button>
+        <button class="num">3</button>
+        <button class="operator" value="divide">%</button>
+        <button class="col-2 num" id="zero">0</button>
+        <button class="num">.</button>
+        <button class="operator" value="equal" id="equal">=</button>
     </div>
 </div>
 
     <script src="display.js"></script>
-    <script src="calculadora.js"></script>
+    <script src="calculator.js"></script>
     <script src="main.js"></script>
 
   </body>
